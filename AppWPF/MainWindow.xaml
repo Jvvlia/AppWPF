@@ -1,0 +1,17 @@
+﻿<Window x:Class="AppWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="LstCustomers" HorizontalAlignment="Left" Height="163" Margin="54,180,0,0" VerticalAlignment="Top" Width="492" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <Button x:Name="BtnAdd" Content="Add" Margin="606,182,66,205" Click="BtnAdd_Click"/>
+        <Button x:Name="BtnEdit" Content="Edit" Margin="606,339,66,45" Click="BtnEdit_Click"/>
+        <Button x:Name="BtnDelete" Content="Delete" Margin="606,255,66,125" Click="BtnDelete_Click"/>
+        <Label Content="Customers" Margin="54,104,376,259"/>
+        <TextBox x:Name="TxtEdit" TextWrapping="Wrap" Text="TextBox" Margin="54,348,254,23"/>
+    </Grid>
+</Window>

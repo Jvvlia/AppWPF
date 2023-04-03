@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Customers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CustomersList>
+    <Customer>
+      <Name>Ania</Name>
+      <Address>ul.Zapolskiej 32, Kraków</Address>
+      <VATID>23456789012</VATID>
+      <CreationDate>2012-03-07T00:00:00</CreationDate>
+    </Customer>
+    <Customer>
+      <Name>Marek</Name>
+      <Address>ul.Wiosenna 3, Opole</Address>
+      <VATID>34567890234</VATID>
+      <CreationDate>2022-12-09T00:00:00</CreationDate>
+    </Customer>
+    <Customer>
+      <Name>Kasia</Name>
+      <Address>ul. Sosonowa 5, Rzeszów</Address>
+      <VATID>98765435670</VATID>
+      <CreationDate>2020-09-25T00:00:00</CreationDate>
+    </Customer>
+  </CustomersList>
+</Customers>
